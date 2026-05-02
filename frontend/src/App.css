@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: Inter, system-ui, Arial;
+  background: #f1f5f9;
+  color: #0f172a;
+  border: solid;
+  border-color: green;
+  overflow: hidden;
+}
+
+/* smooth buttons */
+button {
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  transform: translateY(-1px);
+  opacity: 0.9;
+}
+
+/* ::-webkit-scrollbar {
+  width: 25px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #94a3b8;
+  border-radius: 0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #64748b;
+} */
